@@ -1,0 +1,180 @@
+.partition {
+    overflow: hidden;
+  }
+  
+  .partition-1 {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .partition-headline {
+    position: absolute;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 10%;
+  }
+  
+  .partition-headline-right {
+    text-align: right;
+    right: 5%;
+    left: 25%;
+  }
+  
+  .partition-headline-left {
+    text-align: left;
+    right: 25%;
+    left: 5%;
+  }
+  
+  .partition p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin: 0;
+  }
+  
+  .partition h1 {
+    color: var(--color-headline);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .partition h2 {
+    color: var(--color-headline);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+  }
+  
+  .partition h3 {
+    color: var(--color-headline);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  
+  .partition h4 {
+    font-size: 12px;
+  }
+  
+  .partition h5 {
+    color: var(--color-orange);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+  
+  .partition-section {
+    padding-top: 4vmin;
+    background-color: var(--color-background);
+  }
+  
+  .brick {
+    position: relative;
+    width: 90%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .brick-background {
+    border-radius: 6px;
+    /* filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, .25)); */
+  }
+  
+  .partition-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    background:black;
+  }
+  
+  .partition-footer {
+    position: relative;
+    height: 180px;
+    width: 90%;
+    left: 5%;
+    margin-top: 60px;
+  }
+  
+  .partition-footer-back-top p {
+    padding: 16px;
+    color: unset;
+  }
+  
+  .partition-footer-back-top {
+    position: relative;
+    left: 10%;
+    width: 80%;
+  }
+  
+  .partition-footer h2 {
+    font-size: 28px !important;
+    color: var(--color-text);
+    margin-bottom: 24px;
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    .brick {
+      margin-bottom: 42px;
+    }
+  
+    .partition-headline {
+      top: 25%;
+    }
+  
+    .partition-headline-right {
+      right: 15%;
+      left: 45%;
+    }
+  
+    .partition-headline-left {
+      right: 45%;
+      left: 15%;
+    }
+  
+    .partition p {
+      font-size: 18px;
+    }
+  
+    .partition h1 {
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+  
+    .partition h2 {
+      font-size: 45px;
+      letter-spacing: 4.5px;
+    }
+  
+    .partition h3 {
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+  
+    .partition h4 {
+      font-size: 1.2em;
+    }
+  
+    .partition h5 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+  
+    .brick {
+      width: 60%;
+      margin-bottom: 90px;
+    }
+  
+    .partition-footer {
+      width: 30%;
+      left: 35%;
+    }
+  }
+  
